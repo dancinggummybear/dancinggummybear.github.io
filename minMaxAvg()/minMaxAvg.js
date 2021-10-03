@@ -1,4 +1,3 @@
-
 const arr = getMinMaxAvg(1, 2)
 
 function getMinMaxAvg(a, b){
@@ -7,7 +6,7 @@ function getMinMaxAvg(a, b){
   let Max = Math.max(a, b)
   let Avg = (a + b) / getMinMaxAvg.length
   
-var minMaxAvg = {min, Max, Avg}
-console.log(minMaxAvg)
+var minMaxAvg = ['Minimum is ' + min, 'Maximum is ' + Max, 'Average is ' + Avg]
+console.log (minMaxAvg)
   
 }
