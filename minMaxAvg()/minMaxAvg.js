@@ -8,5 +8,5 @@ function getMinMaxAvg(a, b){
   
 var minMaxAvg = ['Minimum is ' + min, 'Maximum is ' + Max, 'Average is ' + Avg]
 console.log (minMaxAvg)
-  
+
 }
