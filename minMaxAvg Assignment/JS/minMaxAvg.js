@@ -12,4 +12,4 @@ console.log(minMaxAvg)
 let elresult = document.getElementById('result')
 elresult.innerHTML = 'The result is ' + minMaxAvg
 
-}
+} 
