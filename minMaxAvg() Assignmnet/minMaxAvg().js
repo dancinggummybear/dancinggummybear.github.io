@@ -6,7 +6,15 @@ function getMinMaxAvg(a, b){
   let Max = Math.max(a, b)
   let Avg = (a + b) / getMinMaxAvg.length
   
-var minMaxAvg = ['Minimum is ' + min, 'Maximum is ' + Max, 'Average is ' + Avg]
-console.log (minMaxAvg)
+var minMaxAvg = ['Minimum = ' + min, ' Maximum = ' + Max, ' Average = ' + Avg]
+console.log(minMaxAvg)
+
+let elresult = document.getElementById('result')
+elresult.innerHTML = 'The result is ' + minMaxAvg
 
 }
+
+
+  
+  
+  
