@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VUE.js Example</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+   <h1>Vue.js Example</h1>
+   
+   <div id="app1">
+       {{ message }}
+   </div>
+
+   <div id="app2">
+       <span v-bind:title = "message">
+           Hover your mouse here for a few seconds to see the title :)
+       </span>
+       <a v-bind:href="linkUrl" target="_blank">{{ linkText }}</a>
+   </div>
+
+   <div id="app3">
+       <span v-if="showIt">Now you can see this <3</span><br>
+       <button v-on:click="toggleMsg">Toggle Massage</button>
+   </div>
+
+   <div id="app4">
+       <ol>
+           <li v-for="todo in theList">
+               {{todo.text}}
+           </li>
+       </ol>
+   </div>
+
+   <div id="app5">
+       <p>{{message}}</p>
+       <input type="text" v-model="message">
+   </div>
+
+   
+
+   <script src="JS/index.js"></script>
+</body>
+</html>
