@@ -1,0 +1,74 @@
+.navbar {
+    position: relative;
+    
+}
+
+.img {
+    height: auto;
+    width: auto;
+}
+
+
+.button{
+    position: absolute;
+    right: 20px;
+}
+
+.profbutton {
+    position: relative;
+    background-color:crimson;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+a.ex {
+    position: relative;
+    background-color:crimson;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    bottom: px;
+
+}
+
+a.ex:hover, a.ex:active {
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.duckHero {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 80px;
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+  }

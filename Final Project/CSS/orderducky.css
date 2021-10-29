@@ -1,0 +1,42 @@
+.productSmall img{
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.6;
+}
+
+.productSmall img:hover{
+    opacity:1;
+}
+
+.productSmall{
+    float: left;
+}
+
+.product{
+    top: 30%;
+    left: 10%;
+    transform: translate (-50%, 50%);
+    position: absolute;
+}
+
+.imgContainer img{
+    height: 500px;
+}
+
+.imgContainer{
+    float: right;
+    padding: 10px;
+}
+
+.formPosition{
+   margin-left: 50%
+}
+
+.productDesc{
+    position: absolute;
+    padding: 60px;
+    margin-top: 100px;
+    text-align: center;
+}
